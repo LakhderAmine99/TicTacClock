@@ -22,21 +22,6 @@ class Canvas {
         this.ctx = this.canvas.getContext("2d");
     }
 
-    loadData(data){
-
-
-    }
-
-    draw(ctx,width,height){
-
-        console.log(ctx);
-
-    }
-
-    render(){
-
-    }
-
     getContext(){
         return this.ctx;
     }

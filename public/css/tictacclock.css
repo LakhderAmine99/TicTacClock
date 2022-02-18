@@ -4,7 +4,7 @@
 
 #app
 {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: rgb(119, 95, 64);
 }
 
@@ -28,6 +28,7 @@ footer
 
 .clock-widget
 {
+    overflow-y: auto;
     /* width: 400px;
     padding: 1rem; */
 }
