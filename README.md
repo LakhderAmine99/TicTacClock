@@ -1,2 +1,2 @@
-## TicTakClock V 0.0.1
+## TicTakClock V 0.0.2
 
