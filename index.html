@@ -7,7 +7,10 @@
     <title>TicTacClock</title>
 
     <link rel="stylesheet" href="public/css/tictacclock.css">
-    <script async src="src/TicTacClock.js"></script>
+    <script async src="./src/lib/modules/Canvas.js"></script>
+    <script async src="./src/lib/modules/Clock.js"></script>
+    <script async src="./src/lib/utils.js"></script>
+    <script async src="./src/TicTacClock.js"></script>
 </head>
 <body>
     <div id="app">
@@ -16,9 +19,11 @@
 
             </div>
         </header>
-        <main>
+        <main class="flex-center">
             <div class="container">
-
+                <div class="clock-widget">
+                    <canvas></canvas>
+                </div>
             </div>
         </main>
         <footer>

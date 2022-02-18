@@ -1,5 +1,23 @@
-.container
-{
-    max-width: 1000px;
-    margin: 0 auto;
-}
+.container{ max-width: 1000px; margin: 0 auto;}
+
+/*** flexbox ***/
+
+.flex{ display: flex;}
+.flex-center{ display: flex;align-items: center;justify-content: center;}
+.flex-dir-col{ flex-direction: column;}
+
+.align-center{ align-items: center;}
+
+.justify-center{ justify-content: center;}
+
+/*** padding ***/
+
+.pd-1rem{ padding: 1rem;}
+.pd-2rem{ padding: 2rem;}
+.pd-4rem{ padding: 4rem;}
+.pd-8rem{ padding: 8rem;}
+
+.pd-tb-1rem{ padding: 1rem 0;}
+.pd-tb-2rem{ padding: 2rem 0;}
+.pd-tb-4rem{ padding: 4rem 0;}
+.pd-tb-8rem{ padding: 8rem 0;}
