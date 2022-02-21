@@ -5,6 +5,5 @@
 ## upadates
 
 <p>
-    This is #### TicTacClock V.0.0.8 #### <div style="color:white">Beta</div> , with a real time
-    analog clock.
+    This is #### TicTacClock V.0.0.8 Beta #### , with a real time analog clock.
 </P>
