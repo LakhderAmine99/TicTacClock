@@ -5,7 +5,7 @@
 #app
 {
     /* height: 100vh; */
-    background-color: rgb(119, 95, 64);
+    background: linear-gradient(to left,rgb(65, 42, 15),rgb(59, 34, 1),rgb(145, 86, 10));
 }
 
 main
@@ -29,12 +29,13 @@ footer
 .clock-widget
 {
     overflow-y: auto;
+    border-radius: 1rem;
+    background-color: white;
     /* width: 400px;
     padding: 1rem; */
 }
 
 canvas
 {
-    background-color: aliceblue;
     /* width: 100% !important; */
 }

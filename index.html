@@ -7,23 +7,41 @@
     <title>TicTacClock</title>
 
     <link rel="stylesheet" href="public/css/tictacclock.css">
+
+    <script async src="./src/lib/utils.js"></script>
+    <script async src="./src/lib/modules/Clock.js"></script>
     <script async src="./src/lib/modules/SpriteObject.js"></script>
     <script async src="./src/lib/modules/Canvas.js"></script>
-    <script async src="./src/lib/modules/Clock.js"></script>
-    <script async src="./src/lib/utils.js"></script>
     <script async src="./src/TicTacClock.js"></script>
 </head>
 <body>
     <div id="app">
         <header class="flex-center">
             <div class="container">
-                <button id="tic">tic tac</button>
+                <!-- <button id="tic">tic tac</button> -->
             </div>
         </header>
         <main class="flex-center">
             <div class="container">
                 <div class="clock-widget">
-                    <canvas></canvas>
+                    <div class="analog-clock">
+                        <canvas width="0" height="0"></canvas>
+                    </div>
+                    <div class="digital-clock">
+                        <div class="flex-center">
+                            <div class="hours">
+
+                            </div> 
+                             : 
+                            <div class="minutes">
+
+                            </div>
+                             :  
+                            <div class="seconds">
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
